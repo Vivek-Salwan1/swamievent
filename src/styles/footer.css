@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bakbak+One&family=Darker+Grotesque:wght@300..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italianno&family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.footerSection {
+  width: 100%;
+  height: 500px;
+  border: 1px solid white;
+  background: rgba(22, 37, 52, 1);
+  color: rgba(180, 180, 180, 1);
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.footerSection .fPart1 {
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid white; */
+  margin: auto;
+  display: flex;
+
+}
+
+.fPart1 .fCol1 {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid white; */
+}
+
+.fCol1Data {
+  /* border: 1px solid white; */
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.fPart1 .fCol2 {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+.fCol2Data {
+  /* border: 1px solid white; */
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+
+}
+
+.fCol2Data a {
+  color: rgba(180, 180, 180, 1) !important;
+}
+
+.footerSection .fPart2 {
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid white; */
+  margin: auto;
+
+}
+
+.fPart2Data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fPart2Data img {
+  width: 270px;
+  height: 150px;
+}
+
+.socialMLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.fSlogan {
+  font-family: "Akaya Telivigala", system-ui;
+  /* font-weight: bolder; */
+  font-size: 1.1rem;
+}
+
+#footername {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* letter-spacing: 10px; */
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-bottom: 0 !important;
+}
+
+.promotion {
+  color: rgba(180, 180, 180, 1);
+  display: flex;
+  border-top: 0.1px solid rgba(180, 180, 180, 1);
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* @media (max-width:600px) {
+  .footerSection {
+    height: 400px;
+  }
+
+ 
+  #footername{
+    font-size: 0.9rem;
+  }
+  .fSlogan{
+    font-size: 0.9rem;
+  }
+  .fCol1Data{
+    margin-top: 5px;
+    line-height: 0;
+  }
+  .fCol2Data{
+    margin-top: 5px;
+    line-height: 0;
+  }
+
+} */
+
+@media screen and (max-width: 600px) {
+
+  .footerSection {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footerSection .fPart1,
+  .footerSection .fPart2 {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .socialMLinks {
+    justify-content: center;
+  }
+
+  .fSlogan {
+    font-size: 0.9rem;
+  }
+
+  #footername {
+    font-size: 1.2rem;
+  }
+  .fPart2Data img {
+    width: 140px;
+    height: 90px;
+  }
+  .footerSection h2{
+    white-space: nowrap;
+
+  }
+  .promotion{
+    text-align: center;
+  }
+}
+
+@media (min-width:1650px){
+.footerSection{
+  font-size: 30px;
+}
+ 
+}

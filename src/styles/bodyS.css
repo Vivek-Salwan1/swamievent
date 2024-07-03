@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bakbak+One&family=Darker+Grotesque:wght@300..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italianno&family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bodySall{
+    padding: 10px 10px;
+}
+
+.bodySall h5{
+    color: #ff3902;
+    font-family: "Fira Sans";
+    /* font-size: 2vw; */
+
+}
+
+.aboutContent p{
+    font-family: "Fira Sans";
+    font-size: 1vw;
+}
+.aboutContent span{
+    display: none;
+    font-size: 1vw;
+}
+
+.domesticCards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px;
+    gap: 40px;
+}
+
+
+
+.domesticCards > * {
+    margin-top: 30px; 
+}
+
+
+
+
+.dCardViewMoreBtn{
+    text-align: right;
+    
+
+}
+.dCardViewMoreBtn button{
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+    background: #FB3C03;
+    color: white !important;
+    /* border: 1px solid black; */
+}
+
+
+
+.internationalCards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px;
+    gap: 40px;
+
+}
+
+.internationalCards > * {
+    margin-top: 30px; 
+}
+
+
+@media (max-width:600px) {
+    .dCardViewMoreBtn {
+    text-align: center;
+    }
+    .bodySall h5{
+        text-align: center;
+    }
+    .domesticCards{
+        gap: 14px;
+        padding: 0px;
+        justify-content: center;
+
+    }
+    .internationalCards{
+        gap: 14px;
+        padding: 0px 0px;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+    .dCardViewMoreBtn button{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .aboutContent p{
+        display: none;
+    }
+    .aboutContent span{
+        display: block;
+        font-size: 13px;
+        margin-left: 18px;
+    }
+}
+
+
+@media (min-width:1650px) {
+    .bodySall h5{
+        font-size: 1.5vw;
+    }
+    /* .domesticCards{
+    margin-left: 100px;
+    }
+    .internationalCards{
+        margin-left: 100px;
+    } */
+}

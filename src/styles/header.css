@@ -1,0 +1,136 @@
+.header {
+    width: 100%;
+}
+
+
+.navBar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    z-index: 1000;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.519);
+    border: 1px solid black;
+}
+
+/* link{
+    text-decoration: none;
+} */
+
+.part1 {
+    width: 30%;
+    height: 100%;
+}
+
+.part1 .logo img {
+    width: 81px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+.part2 {
+    width: 70%;
+    height: 100%;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.navItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+    color: white;
+    position: relative;
+    font-size: 1vw;
+    /* font-family: "Fira Sans"; */
+    
+}
+
+
+ul li{
+/* border: 1px solid black; */
+cursor: pointer;
+padding: 3px 7px;
+border-radius: 7px;
+}
+ol, ul, dl{
+    margin-bottom: 0 !important;
+}
+ul li:hover{
+    background: rgba(0, 0, 0, 0.708)
+}
+
+
+.slider {
+    margin-top: -70px;
+    z-index: 0;
+    position: relative;
+}
+.carousel-indicators [data-bs-target] {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 100%;
+
+}
+
+
+
+/* Packages */
+
+.subPackages {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 163px;
+    background-color: rgba(0, 0, 0, 0.708);
+    padding: 10px 0;
+    /* border: 1px solid #ccc; */
+    color: white;
+    list-style: none;
+    top: -35%;
+    padding-top: 51px;
+  }
+  
+  .navItems li:hover .subPackages {
+    display: block;
+  }
+  
+  .subPackages li {
+    padding: 10px 20px;
+  }
+  
+  .subPackages li:hover {
+    background-color: rgba(0, 0, 0, 0.87);
+  }
+
+.activeNav{
+    color: #FB3C03;
+}
+
+
+
+
+  /* MOBILE */
+
+
+@media (max-width:600px) {
+    .navBar{
+        display: none;
+    }
+    .slider{
+        margin-top: 0;
+    }
+
+
+}
+ 
+/* large screens */
+
+@media (min-width:1650px){
+.navItems{
+    gap: 100px;
+}
+}

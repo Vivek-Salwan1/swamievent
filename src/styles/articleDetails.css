@@ -1,0 +1,56 @@
+
+.artDContainer{
+    overflow: hidden;
+}
+.artContainer{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.artContainer h3{
+    text-align: center;
+    color: #1a81c6;
+}
+
+.artContainer .artImage{
+    width: 58%;
+    height: 400px;
+    margin: auto;
+    /* border: 1px solid darkblue; */
+}
+
+.artImage img{
+    width: 100%;
+    height: 100%;
+
+}
+.artDescription{
+    /* border: 1px solid black; */
+    padding: 20px 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width:600px) {
+    .artContainer{
+        width: 98%;
+        
+    }
+    .artContainer .artImage{
+        width: 90%;
+        height: 250px;
+    } 
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    .artContainer{
+        width: 98%;
+        
+    }
+    .artContainer .artImage{
+        width: 90%;
+        height: 250px;
+    } 
+}

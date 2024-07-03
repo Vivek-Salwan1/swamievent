@@ -1,0 +1,13 @@
+.galCard {
+    width: 250px;
+    height: 270px;
+    border-radius: 5px;
+   
+
+}
+
+.galCard img{
+    width: 100%;
+    height: 100%;
+}
+
