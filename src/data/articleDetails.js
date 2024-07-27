@@ -6,7 +6,7 @@ export const ArticlesData =
     [
         {
             articleID: '1',
-            articleTitle: 'What are the reasons to visit the Kokan?',
+            articleTitle: 'What are the reasons to visit the Kokan today?',
             image: article1,
             description: <div dangerouslySetInnerHTML={{
                 __html: `   <p class="Why"> <b>what are the resions to visit Kokan ?</b>
