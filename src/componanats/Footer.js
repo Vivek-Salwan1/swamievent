@@ -20,9 +20,9 @@ function Footer() {
             <div className="socialMLinks">
 
 
-              <Link to='https://www.instagram.com/swami.event.managment?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target='_blank'> <i> <FontAwesomeIcon icon={faInstagram} size='2x' /> </i></Link>
-              <Link to='https://www.facebook.com/profile.php?id=100082626196797' target='_blank'>  <i>  <FontAwesomeIcon icon={faFacebook} size='2x' /> </i></Link>
-              <Link to='https://api.whatsapp.com/send?phone=919730933133' target='_blank'> <i>  <FontAwesomeIcon icon={faWhatsapp} size='2x' /> </i></Link>
+              <Link to='https://www.instagram.com/swami.event.managment?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target='_blank' rel='noopener noreferrer'> <i> <FontAwesomeIcon icon={faInstagram} size='2x' /> </i></Link>
+              <Link to='https://www.facebook.com/profile.php?id=100082626196797' target='_blank' rel='noopener noreferrer' >  <i>  <FontAwesomeIcon icon={faFacebook} size='2x' /> </i></Link>
+              <Link to='https://api.whatsapp.com/send?phone=919730933133' target='_blank' rel='noopener noreferrer'> <i>  <FontAwesomeIcon icon={faWhatsapp} size='2x' /> </i></Link>
 
             </div>
           </div>
@@ -48,7 +48,7 @@ function Footer() {
         </div>
         <div className='promotion'>
         {/* <p>@copyrights </p> */}
-        <p> Designed and developed by <a href='https://lapticare.in/' target='_blank'>Lapticare.in</a> </p>
+        <p> Designed and developed by <a href='https://lapticare.in/' target='_blank' rel='noopener noreferrer'>Lapticare.in</a> </p>
         </div>
 
       </div>
