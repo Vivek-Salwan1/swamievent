@@ -60,7 +60,7 @@ ol, ul, dl{
     margin-bottom: 0 !important;
 }
 ul li:hover{
-    background: rgba(0, 0, 0, 0.708)
+    background: rgb(243, 20, 20);
 }
 
 

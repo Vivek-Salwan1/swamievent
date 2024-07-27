@@ -142,6 +142,21 @@
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    body {
+        font-size: 16px;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+    .dCard{
+        width: 320px;
+        height: 400px;
+    }
+
+
+}
+
 @media (min-width:1650px){
     .dCard {
         width: 400px;
